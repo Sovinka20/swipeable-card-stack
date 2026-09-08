@@ -161,3 +161,44 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  /* Стеклянная кнопка (базовая) */
+  .glass-btn {
+    @apply flex items-center justify-center rounded-full border border-white/20 bg-gradient-to-br from-white/20 to-white/5 shadow-[0_4px_12px_rgba(0,0,0,0.4),inset_0_1px_0_rgba(255,255,255,0.1)] backdrop-blur-md transition-colors duration-300 hover:border-white/40 hover:bg-white/10;
+  }
+
+  /* Панель сайдбара */
+  .sidebar-panel {
+    @apply absolute left-6 top-6 bottom-6 z-20 flex flex-col overflow-hidden border shadow-xl transition-all duration-500 ease-in-out rounded-[24px];
+  }
+  .sidebar-panel-night {
+    @apply border-white/5 bg-black/70;
+  }
+  .sidebar-panel-day {
+    @apply border-white/10;
+  }
+
+  /* Оверлей внутри панели */
+  .sidebar-overlay-night {
+    @apply bg-black/80;
+  }
+  .sidebar-overlay-day {
+    @apply bg-black/50;
+  }
+
+  /* Пункт меню сайдбара */
+  .sidebar-menu-item {
+    @apply flex w-full items-center rounded-xl py-2 text-white transition-all duration-500 ease-in-out hover:bg-white/10;
+  }
+
+  /* Блок профиля */
+  .sidebar-profile {
+    @apply flex items-center transition-all duration-500 ease-in-out;
+  }
+
+  /* Кнопка развернуть/свернуть */
+  .sidebar-toggle {
+    @apply flex h-8 w-8 items-center justify-center rounded-full border border-white/20 bg-white/10 transition-all duration-500 ease-in-out hover:bg-white/20;
+  }
+}
