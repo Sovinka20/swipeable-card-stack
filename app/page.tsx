@@ -11,7 +11,7 @@ import resultsData from '../results.json'
 const cards = resultsData.map((item) => ({
   id: item.id,
   title: item.destination,
-  subtitle: item.card_type,
+  subtitle: item.prompt,
   image: item.files[0],
 }))
 
