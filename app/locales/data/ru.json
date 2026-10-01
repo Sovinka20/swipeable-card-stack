@@ -7,7 +7,7 @@
     "prompt": "Эйфелева башня в час заката и Лувр без спешки",
     "status": "skipped_existing",
     "files": [
-      "/scenario_output/001_paris_01.jpg"
+      "/scenario/001_paris_01.jpg"
     ]
   },
  
@@ -19,7 +19,7 @@
     "prompt": "Величественные купола, терракотовые крыши и мягкий свет заходящего солнца",
     "status": "skipped_existing",
     "files": [
-      "/scenario_output/009_rome_01.jpg"
+      "/scenario/009_rome_01.jpg"
     ]
   },
   {
@@ -30,7 +30,7 @@
     "prompt": "Саграда Фамилия, Парк Гуэль и Каса Батло",
     "status": "skipped_existing",
     "files": [
-      "/scenario_output/017_barcelona_01.jpg"
+      "/scenario/017_barcelona_01.jpg"
     ]
   },
 
@@ -42,7 +42,7 @@
     "prompt": "Здесь никто не торопится — время течёт медленно за ежедневными занятиями с видом на берег",
     "status": "skipped_existing",
     "files": [
-      "/scenario_output/025_lisbon_01.jpg"
+      "/scenario/025_lisbon_01.jpg"
     ]
   }
 
