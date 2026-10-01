@@ -1,0 +1,49 @@
+[
+  {
+    "index": 1,
+    "id": "paris_01",
+    "destination": "Париж",
+    "card_type": "hero",
+    "prompt": "Эйфелева башня в час заката и Лувр без спешки",
+    "status": "skipped_existing",
+    "files": [
+      "/scenario_output/001_paris_01.jpg"
+    ]
+  },
+ 
+  {
+    "index": 9,
+    "id": "rome_01",
+    "destination": "Рим",
+    "card_type": "hero",
+    "prompt": "Величественные купола, терракотовые крыши и мягкий свет заходящего солнца",
+    "status": "skipped_existing",
+    "files": [
+      "/scenario_output/009_rome_01.jpg"
+    ]
+  },
+  {
+    "index": 17,
+    "id": "barcelona_01",
+    "destination": "Барселона",
+    "card_type": "hero",
+    "prompt": "Саграда Фамилия, Парк Гуэль и Каса Батло",
+    "status": "skipped_existing",
+    "files": [
+      "/scenario_output/017_barcelona_01.jpg"
+    ]
+  },
+
+  {
+    "index": 25,
+    "id": "lisbon_01",
+    "destination": "Лиссабон",
+    "card_type": "hero",
+    "prompt": "Здесь никто не торопится — время течёт медленно за ежедневными занятиями с видом на берег",
+    "status": "skipped_existing",
+    "files": [
+      "/scenario_output/025_lisbon_01.jpg"
+    ]
+  }
+
+]

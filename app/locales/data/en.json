@@ -1,0 +1,46 @@
+[
+  {
+    "index": 1,
+    "id": "paris_01",
+    "destination": "Paris",
+    "card_type": "hero",
+    "prompt": "The Eiffel Tower at sunset and the Louvre without the rush",
+    "status": "skipped_existing",
+    "files": [
+      "/scenario/001_paris_01.jpg"
+    ]
+  },
+  {
+    "index": 9,
+    "id": "rome_01",
+    "destination": "Rome",
+    "card_type": "hero",
+    "prompt": "Majestic domes, terracotta rooftops and the soft light of the setting sun",
+    "status": "skipped_existing",
+    "files": [
+      "/scenario/009_rome_01.jpg"
+    ]
+  },
+  {
+    "index": 17,
+    "id": "barcelona_01",
+    "destination": "Barcelona",
+    "card_type": "hero",
+    "prompt": "Sagrada Família, Park Güell and Casa Batlló",
+    "status": "skipped_existing",
+    "files": [
+      "/scenario/017_barcelona_01.jpg"
+    ]
+  },
+  {
+    "index": 25,
+    "id": "lisbon_01",
+    "destination": "Lisbon",
+    "card_type": "hero",
+    "prompt": "Nobody is in a hurry here — time flows slowly through everyday life with a view of the shore",
+    "status": "skipped_existing",
+    "files": [
+      "/scenario/025_lisbon_01.jpg"
+    ]
+  }
+]
